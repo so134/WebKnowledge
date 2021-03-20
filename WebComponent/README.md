@@ -6,11 +6,11 @@
 
 ### WebComponents の持つ 3 つの主要な技術
 
-- [Custom Elements](.CustomElementss)
-- [Shadow DOM](.ShadowDOM)
-- [HTML Templates](.HTMLTemplates)
+- [Custom Elements](#CustomElementss)
+- [Shadow DOM](#ShadowDOM)
+- [HTML Templates](#HTMLTemplates)
 
-<a class="CustomElements"></a>
+<a id="CustomElements"></a>
 
 ## Custom Elements
 
@@ -18,8 +18,8 @@
 
 - `<div>`の代わりに`<my-element>`というように独自の命名のタグを生成できる
 - HTML × JavaScript (JSX)の形
-- 場合によっては[Polyfill](.Polyfill)が必要
-- 長い[MutationObserver](.MutationObserver)との決別
+- 場合によっては[Polyfill](#Polyfill)が必要
+- 長い[MutationObserver](#MutationObserver)との決別
 
    <br />
    <br />
@@ -114,7 +114,7 @@
     disconnectedCallback() { ... }
     ```
 
-    customElement のコードでは、[クラス](.Class)の[インスタンス](.Instance) `this`が element のインスタンスそのものになる
+    customElement のコードでは、[クラス](#Class)の[インスタンス](#Instance) `this`が element のインスタンスそのものになる
 
     **Web アプリケーションを作成するのに必要な HTML の抜けた部分を、自然にかつ直感的な方法で提供可能**
 
@@ -153,7 +153,7 @@
     <br />
     <br />
 
-<a class="ShadowDOM"></a>
+<a id="ShadowDOM"></a>
 
 ## ShadowDOM
 
@@ -164,7 +164,7 @@ shadow DOM ツリーは shadow root を根とし、その下には普通の DOM 
    <br />
    <br />
    <br />
-<a class="HTMLTemplates"></a>
+<a id="HTMLTemplates"></a>
 
 ## HTML テンプレート
 
@@ -174,7 +174,7 @@ shadow DOM ツリーは shadow root を根とし、その下には普通の DOM 
 
 ## 語彙
 
-<a class="Polyfill"></a>
+<a id="Polyfill"></a>
 
 - Polyfill
 
@@ -182,13 +182,13 @@ shadow DOM ツリーは shadow root を根とし、その下には普通の DOM 
 
   そのようなブラウザが対応できていない部分を埋めることを「ポリフィル」と呼ぶ。
 
-  <a class="MutationObserver"></a>
+  <a id="MutationObserver"></a>
 
 - MutationObserver
 
   DOM の更新時にコールバック関数を実行させる
 
-  <a class="Class"></a>
+  <a id="Class"></a>
 
 - クラス
 
@@ -200,7 +200,7 @@ shadow DOM ツリーは shadow root を根とし、その下には普通の DOM 
   }
   ```
 
-  <a class="Instance"></a>
+  <a id="Instance"></a>
 
 - インスタンス
 
