@@ -35,4 +35,3 @@ DB に保存されている画像やテキストデータを元に CMS が組み
 
 HeadlessCMS は Head を持たず、内容を管理する backend の機能だけを持ち、見た目を決めるテーマや CSS は持たない
 
-### HeadlessCMS 種類

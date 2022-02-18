@@ -209,3 +209,4 @@ shadow DOM ツリーは shadow root を根とし、その下には普通の DOM 
   ```js
   const インスタンス名(オブジェクト名) = new Actor（クラス名）;
   ```
+
