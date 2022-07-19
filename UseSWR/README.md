@@ -33,12 +33,12 @@ function Profile() {
 }
 ```
 
-useSWR フックは key 文字列と fetcher 関数を受け取る。
+useSWR hooksは key 文字列と fetcher 関数を受け取る。
 key はデータの一意な識別子でAPIの requestURL 等を使用するのが一般的
 
 key は fetcher に渡される。 fetcher はデータを返す任意の非同期関数
 
-このフックは、リクエストの状態にもとづいて data と error の二つの値を返す。
+このhooksは、リクエストの状態にもとづいて data と error の二つの値を返す。
 
 
 ## 特徴
@@ -61,7 +61,7 @@ keyに渡したパスに対してGETが走る
 
 - `key` : このリクエストのためのユニークなキー文字列（または関数、配列、null）
 - `fetcher` : （任意） データをフェッチするための Promise を返す関数
-- `options` : （任意） この SWR フックのオプションオブジェクト https://swr.vercel.app/ja/docs/options
+- `options` : （任意） この SWR hooksのオプションオブジェクト https://swr.vercel.app/ja/docs/options
 
 ### 返り値
 
@@ -109,7 +109,7 @@ intervalでの検証の仕組み
 
 Q : 常に裏で再検証されていたら、何回もAPIリクエストが発生するのでは？
 
-A : フックに関連付けられたコンポーネントが画面に表示されている場合にのみ再取得が行われる
+A : hooksに関連付けられたコンポーネントが画面に表示されている場合にのみ再取得が行われる
 
 感想 : すごい
 
